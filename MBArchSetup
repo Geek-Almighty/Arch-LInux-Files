@@ -1,9 +1,31 @@
 # Arch on MBA Installation
 
+[user@mbarch ~]$ neofetch
+                   -`                    user@mbarch 
+                  .o+`                   ------------ 
+                 `ooo/                   OS: Arch Linux x86_64 
+                `+oooo:                  Host: MacBookAir7,2 1.0 
+               `+oooooo:                 Kernel: 5.8.3-arch1-1-macbook 
+               -+oooooo+:                Uptime: 7 mins 
+             `/:-:++oooo+:               Packages: 520 (pacman) 
+            `/++++/+++++++:              Shell: bash 5.0.18 
+           `/++++++++++++++:             Resolution: 1440x900 
+          `/+++ooooooooooooo/`           WM: i3 
+         ./ooosssso++osssssso+`          Theme: Adwaita [GTK2/3] 
+        .oossssso-````/ossssss+`         Icons: Adwaita [GTK2/3] 
+       -osssssso.      :ssssssso.        Terminal: terminator 
+      :osssssss/        osssso+++.       CPU: Intel i5-5250U (4) @ 2.700GHz 
+     /ossssssss/        +ssssooo/-       GPU: Intel HD Graphics 6000 
+   `/ossssso+/:-        -:/+osssso+-     Memory: 637MiB / 3834MiB 
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/                           
+ .`                                 `/                           
+
+
 Refresh Source -Syyy
 #timedatectl set-ntp true
 Using gdisk, ssd was zapped
-Using fdisk ssd has been partioned as follows:
+Using fdisk sda has been partioned as follows:
 GPT partition table
 1GB   EFI
 rest of disk as one partition for encryption
