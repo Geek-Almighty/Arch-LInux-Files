@@ -1,6 +1,6 @@
-Arch on MBA Installation
+#Arch on MBA Installation
 
-Refresh Source -Syyy
+(Refresh Source -Syyy
 # timedatectl set-ntp true
 Using gdisk, ssd was zapped
 Using fdisk ssd has been partioned as follows:
@@ -111,4 +111,4 @@ comment out last four and add exec i3
 # ./install
 # sudo pacman -S feh
 
-# pacaur -S linux-macbook linux-macbook-headers
+# pacaur -S linux-macbook linux-macbook-headers)
