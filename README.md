@@ -8,25 +8,26 @@ This repository will contain walkthroughs only, for now, mainly written for my s
 Log:-
 
 ##### Build01_MBArch          Host: MacBookAir7,2 1.0
-- v.01   
+#### - v.01   
 > Using script from [loeken](https://github.com/loeken) for UI customisation
   - [x] install base system with encryption
   - [x] add user
-  - [x] install GFX driver
+  - [x] install GFX driver  > noticable screen tearing
   - [x] install GUI
   - [x] install macbook kernel
   - [x] audio
   - [x] bluetooth
-  - [ ] wlan              > halfway there, will finish in v.02
-  - [ ] trackpad          > works oob with two finger scrolling and rightclick
-  - [ ] keyboard          > works oob
+  - [ ] wlan                > halfway there, will finish in v.02
+  - [ ] trackpad            > works oob with two finger scrolling and rightclick
+  - [ ] keyboard            > works oob
   - [ ] webcam            
-  - [ ] function buttons  > volume + mute works (no limit on volume!!!)
-  - [ ] backlighting      > manually altered until webcam is installed
+  - [ ] function buttons    > volume + mute works (no limit on volume!!!) after installing webcam driver
+  - [ ] backlighting        > manually altered until webcam is installed
+  - [x] brightness control
   - [x] suspend/sleep+wake
+ #### End of v.01
+---------------------------
 
-
-
-- v.02
+#### - v.02
       
 ##### Build02_WhiteCube       Host: Custom-built PC
