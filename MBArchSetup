@@ -111,7 +111,7 @@ options cryptdevice=UUID=****:lvm root=/dev/mapper/main-root quiet rw
 #gpasswd -a user wheel
 #nano /etc/sudoers
 
-#pacman -S mesa git lib32-mesa xf86-video-intel vulkan-intel
+#pacman -S mesa git lib32-mesa xf86-video-intel vulkan-intel cpio
 #mkdir /home/user/git
 #cd /home/user/git
 #git clone https://aur.archlinux.org/auracle-git.git
@@ -153,3 +153,17 @@ AutoEnable=true (i left it on false, don't want my bluetooth on all the time fro
 #sudo systemctl start bluetooth.service
 #bluetoothctl (to control bluetooth from cli)
 #reboot
+
+#cd git
+#git clone https://github.com/patjak/facetimehd-firmware
+#cd facetimehd-firmware
+#make
+#sudo make install
+#git clone https://github.com/patjak/bcwc_pcie.git
+#cd bcwc_pcie
+#make
+#sudo make install
+#sudo depmod
+#sudo modprobe facetimehd
+#reboot
+
