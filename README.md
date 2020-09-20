@@ -20,9 +20,10 @@ Log:-
   - [ ] wlan              > halfway there, will finish in v.02
   - [ ] trackpad          > works oob with two finger scrolling and rightclick
   - [ ] keyboard          > works oob
-  - [ ] webcam
-  - [ ] function buttons
-  - [ ] backlighting      > manually altered until webcam is installed  
+  - [ ] webcam            
+  - [ ] function buttons  > volume + mute works (no limit on volume!!!)
+  - [ ] backlighting      > manually altered until webcam is installed
+  - [x] suspend/sleep+wake
 
 
 
