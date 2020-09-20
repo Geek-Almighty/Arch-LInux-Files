@@ -1,6 +1,6 @@
-# Arch on MBA Installation
+# Arch on MBA7,2 Installation
 
-[user@mbarch ~]$ neofetch
+
                    -`                    user@mbarch 
                   .o+`                   ------------ 
                  `ooo/                   OS: Arch Linux x86_64 
@@ -22,9 +22,8 @@
  .`                                 `/                           
 
 
-Refresh Source -Syyy
 #timedatectl set-ntp true
-Using gdisk, ssd was zapped
+Using gdisk, sda was zapped
 Using fdisk sda has been partioned as follows:
 GPT partition table
 1GB   EFI
