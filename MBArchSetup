@@ -153,3 +153,4 @@ AutoEnable=true (i left it on false, don't want my bluetooth on all the time fro
 #sudo systemctl enable bluetooth.service
 #sudo systemctl start bluetooth.service
 #bluetoothctl (to control bluetooth from cli)
+#reboot
