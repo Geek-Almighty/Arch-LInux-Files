@@ -9,7 +9,7 @@ Log:-
 
 ##### Build01_MBArch          Host: MacBookAir7,2 1.0
       |
-      |_ v.01   Using script from https://github.com/loeken for UI customisation
+      |_ v.01   Using script from [loeken](https://github.com/loeken) for UI customisation
       |_ v.02
       
 ##### Build02_WhiteCube       Host: Custom-built PC
