@@ -8,7 +8,8 @@ This repository will contain walkthroughs only, for now, mainly written for my s
 Log:-
 
 ##### Build01_MBArch          Host: MacBookAir7,2 1.0
-- v.01   Using script from [loeken](https://github.com/loeken) for UI customisation
+- v.01   
+> Using script from [loeken](https://github.com/loeken) for UI customisation
   - [x] install base system with encryption
   - [x] add user
   - [x] install GFX driver
