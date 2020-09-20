@@ -166,4 +166,6 @@ AutoEnable=true (i left it on false, don't want my bluetooth on all the time fro
 #sudo depmod
 #sudo modprobe facetimehd
 #reboot
+>webcam still not working...
 
+### End of v.01
