@@ -145,3 +145,11 @@ options cryptdevice=UUID=****:lvm root=/dev/mapper/main-root quiet rw
 
 #sudo mkinitcpio -p linux
 #reboot
+
+#sudo pacman -S bluez bluez-utils pulseaudio-bluetooth
+#sudo nano /etc/bluetooth/main.conf
+[Policy]
+AutoEnable=true (i left it on false, don't want my bluetooth on all the time from boot up)
+#sudo systemctl enable bluetooth.service
+#sudo systemctl start bluetooth.service
+#bluetoothctl (to control bluetooth from cli)
