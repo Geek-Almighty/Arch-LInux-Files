@@ -7,7 +7,7 @@ This repository will contain walkthroughs only, for now, mainly written for my s
 
 Log:-
 
-##### Build01_MBArch          Host: MacBookAir7,2 1.0
+##### Build01_MBArch    v1.0          Host: MacBookAir7,2 1.0
 #### - v.01   
 > Using script from [loeken](https://github.com/loeken) for UI customisation
   - [x] install base system with encryption
@@ -26,9 +26,12 @@ Log:-
   - [x] brightness control
   - [x] suspend/sleep+wake
  #### End of v.01
+ #### - v.02
 ---------------------------
 
-#### - v.02
+
 ---------------------------
 
-##### Build02_WhiteCube       Host: Custom-built PC
+##### Build02_WhiteCube v1.0           Host: Custom-built PC
+#### - v.01
+
