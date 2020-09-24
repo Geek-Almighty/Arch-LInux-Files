@@ -169,3 +169,14 @@ AutoEnable=true (i left it on false, don't want my bluetooth on all the time fro
 >webcam still not working...
 
 ### End of v.01
+
+### v.02
+
+#sudo pacman -Syu
+#sudo pacman -S zsh
+#sudo nano /etc/shells
+Add a new line with /usr/bin/zsh
+#sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#pacaur -S yay
+#yay -S --noconfirm zsh-theme-powerlevel10k-git
+#echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
